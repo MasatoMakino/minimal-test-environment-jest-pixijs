@@ -1,7 +1,8 @@
-const PIXI = require("pixi.js-legacy");
+jest.spyOn(console, "error").mockImplementation()
 
 describe("Test", () => {
-    const spyLog = jest.spyOn(console, "log").mockImplementation((x) => x);
+    const PIXI = require("pixi.js-legacy");
+    jest.spyOn(console, "log").mockImplementation((x) => x);
 
     const app = new PIXI.Application({
         width: 640,
