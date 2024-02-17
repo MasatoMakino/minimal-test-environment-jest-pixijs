@@ -19,6 +19,6 @@
   "devDependencies": {
     "jest": "^26.0.0",
     "jest-electron": "^0.1.12",
-    "pixi.js-legacy": "^6.0.4"
+    "pixi.js": "^7.4.0"
   }
 }
