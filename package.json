@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/MasatoMakino/minimal-test-environment-jest-pixijs#readme",
   "devDependencies": {
-    "jest": "^26.0.0",
-    "jest-electron": "^0.1.12",
+    "@kayahr/jest-electron-runner": "^29.11.0",
     "pixi.js": "^7.4.0"
   }
 }
