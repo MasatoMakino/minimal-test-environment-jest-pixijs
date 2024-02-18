@@ -13,4 +13,8 @@ describe("Test", () => {
   test("app should be exist", () => {
     expect(app).toBeTruthy();
   });
+
+  test("app.render should execute without errors", () => {
+    expect(app.render()).toBeUndefined();
+  });
 });
